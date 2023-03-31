@@ -8,3 +8,4 @@ Comment 1:
 * pip install torch torchvision torchaudio
 * conda install scipy=1.7
 * pip install seaborn=0.12.2
+* pip install scikit-learn==1.2.1
