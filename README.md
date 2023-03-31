@@ -3,4 +3,8 @@ Workflow for Solid Electrolyte Interface (SEI) model within Active Learning appr
 
 Comment 1:
 
+## Dependencies
+
+pip install torch torchvision torchaudio
 conda install scipy=1.7
+pip install seaborn=0.12.2
