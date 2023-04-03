@@ -8,3 +8,4 @@ Workflow for Solid Electrolyte Interface (SEI) model within Active Learning appr
 * conda install scipy=1.7
 * pip install seaborn=0.12.2
 * pip install scikit-learn==1.2.1
+* pip install pyyaml
