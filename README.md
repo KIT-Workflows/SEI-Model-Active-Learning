@@ -1,9 +1,8 @@
 # SEI-Model-Active-Learning
 Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach
 
-Comment 1:
 
-## Dependencies
+## Python dependencies
 
 * pip install torch torchvision torchaudio
 * conda install scipy=1.7
