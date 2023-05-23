@@ -232,12 +232,6 @@ def Space(samplsz, KPCA, data ):
     
     print(np.max(invN,axis=0), np.min(invN,axis=0))
 
-    for j in al:
-        plt.plot(RANGE, j/np.max(j),'-x', label=str(np.max(j)), )
-        plt.plot(RANGE, func(RANGE, popt[0], popt[1]), label='func')
-
-    plt.legend()
-    plt.show()
     return popt, pp, invN
 
 
