@@ -43,15 +43,6 @@ class StandardApproximateGP(gpytorch.models.ApproximateGP):
         mean_x = self.mean_module(x)
         covar_x = self.covar_module(x)
         return gpytorch.distributions.MultivariateNormal(mean_x, covar_x)
-    
-
-
-Nm = time.ctime().split()[3]
-print('model version: ', Nm)
-
-os.mkdir(f'cycle{Nm}')
-
-modelout=f'cycle{Nm}'
 
 def DataToKmean(Q):
     svd =FastICA(n_components=10, whiten='unit-variance', max_iter=10000)
