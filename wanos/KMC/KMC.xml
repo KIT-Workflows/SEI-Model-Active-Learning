@@ -1,0 +1,41 @@
+<WaNoTemplate>
+
+   <WaNoMeta>
+      <Author>
+         <Name> Celso R. C. Rego </Name>
+         <Email>celsorego@kit.edu</Email>
+      </Author>
+
+      <Description>
+         This WaNo shows the most used functionalities available within the SimStack workflow framework.
+      </Description>
+
+      <Keyword>KMC</Keyword>
+  </WaNoMeta>
+
+   <WaNoRoot name="KMC">
+      
+      <WaNoInt name="kmc-index">0</WaNoInt>
+      <WaNoInt name="kmc-time">60</WaNoInt>
+      
+      <WaNoFile logical_filename="PF.json" name="PF-file">path to file1</WaNoFile>
+
+   </WaNoRoot>
+   <WaNoExecCommand>
+      bash config.sh
+   </WaNoExecCommand>
+   
+   <WaNoInputFiles> 
+      <WaNoInputFile logical_filename="sei_args.yml">sei_args.yml</WaNoInputFile>
+      <WaNoInputFile logical_filename="inputs-kmc.py">inputs-kmc.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="KMC.py">KMC.py</WaNoInputFile> 
+      <WaNoInputFile logical_filename="output-kmc.py">output-kmc.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="report_template.body">report_template.body</WaNoInputFile>
+      <WaNoInputFile logical_filename="config.sh">config.sh</WaNoInputFile>
+   </WaNoInputFiles>
+   
+   <WaNoOutputFiles>
+      <WaNoOutputFile>kmc_results.yml</WaNoOutputFile>
+
+   </WaNoOutputFiles>
+</WaNoTemplate>

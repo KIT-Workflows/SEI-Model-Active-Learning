@@ -1,0 +1,40 @@
+<WaNoTemplate>
+
+   <WaNoMeta>
+      <Author>
+         <Name> Celso R. C. Rego </Name>
+         <Email>celsorego@kit.edu</Email>
+      </Author>
+
+      <Description>
+         This WaNo shows the most used functionalities available within the SimStack workflow framework.
+      </Description>
+
+      <Keyword>SEI-init</Keyword>
+  </WaNoMeta>
+
+   <WaNoRoot name="SEI-init">
+
+      <WaNoFile logical_filename="data1.npy" name="Pickle-file" description = "initial inputs 50k-RDF vectors">/home/mosol/Documents/workflowtmp/data1.npy</WaNoFile>
+      <WaNoFile logical_filename="data2.json" name="Json-file" description = "reaction barriers and labels">/home/mosol/Documents/workflowtmp/data2.json</WaNoFile>
+   </WaNoRoot>
+   <WaNoExecCommand>
+      bash config.sh
+   </WaNoExecCommand>
+   
+   <WaNoInputFiles> 
+      <WaNoInputFile logical_filename="inputs-sei.py">inputs-sei.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="Cyc.py">Cyc.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="folder1.tar.xz">folder1.tar.xz</WaNoInputFile>
+      <WaNoInputFile logical_filename="output-sei.py">output-sei.py</WaNoInputFile> 
+      <WaNoInputFile logical_filename="report_template.body">report_template.body</WaNoInputFile>
+      <WaNoInputFile logical_filename="config.sh">config.sh</WaNoInputFile>
+   </WaNoInputFiles>
+   
+   <WaNoOutputFiles>
+      <WaNoOutputFile>KM.model</WaNoOutputFile>
+      <WaNoOutputFile>FastICA.model</WaNoOutputFile>
+      <WaNoOutputFile>KERNPCA.model</WaNoOutputFile>
+      <WaNoOutputFile>Tdata.json</WaNoOutputFile>
+   </WaNoOutputFiles>
+</WaNoTemplate>

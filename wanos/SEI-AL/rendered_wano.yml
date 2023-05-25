@@ -1,0 +1,7 @@
+Converter descriptor:
+  FastICA-model: FastICA.model
+  KM-moldel: KM.moldel
+Descriptor: false
+Json-file: data2.json
+Pickle-file: data1.npy
+kmc-time: 200

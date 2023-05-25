@@ -1,0 +1,43 @@
+<WaNoTemplate>
+
+	<WaNoMeta>
+ 		<Author>
+  			<Name> Celso R. C. Rego </Name>
+  			<Email>celsorego@kit.edu</Email>
+ 		</Author>
+
+		<Description>
+   			This WaNo uses a python script
+			to generate a DB in a .yml file format.
+ 		</Description>
+
+ 		<Keyword>DB</Keyword>
+	</WaNoMeta>
+
+	<WaNoRoot name="DB-Generator">
+		<WaNoString name="DB-Name">db-Workflow</WaNoString>
+		
+		<WaNoBool name="Full-DB">True</WaNoBool>
+
+		<WaNoMultipleOf  visibility_condition="%s == False" visibility_var_path="Full-DB" name="Wanos">
+			<Element id="0">          
+				<WaNoString name="Wano-Name">KMC</WaNoString>
+				<WaNoString name="Dict-Name">kmc_results.yml</WaNoString>
+			</Element>
+		</WaNoMultipleOf>
+
+	</WaNoRoot>
+
+	<WaNoExecCommand>
+		bash config.sh
+	</WaNoExecCommand>
+	
+	<WaNoInputFiles>
+		<WaNoInputFile logical_filename="db_generator.py">db_generator.py</WaNoInputFile>
+		<WaNoInputFile logical_filename="config.sh">config.sh</WaNoInputFile>
+	</WaNoInputFiles>
+	
+	<WaNoOutputFiles>
+		<WaNoOutputFile>{{ wano["DB-Name"] + ".yml" }}</WaNoOutputFile>		
+	</WaNoOutputFiles>
+</WaNoTemplate>

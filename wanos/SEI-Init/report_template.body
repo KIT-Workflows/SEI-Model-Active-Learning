@@ -1,0 +1,21 @@
+<html>
+<h1> Test-Report </h1>
+
+<p style="color:blue;font-size:24px;">
+    The output of this WaNo is the figure.png file; you can download 
+    it to your computer by simply clicking on it in the output folder.
+</p>
+
+<p style="color:blue;font-size:24px;">The inputs of this WaNo are displayed below.</p>
+
+{% for key, value in output_dict.items() %}
+  <p style="color:black;font-size:20px;"> {{ key }}: {{value}}</p>
+{% endfor %}
+
+
+<figure>
+    <img src="figure.png" alt="RDFs" style="width:65%">
+    <figcaption> <p style="color:red;font-size:24px;">Fig1. - Example of figure.</p>  </figcaption>
+</figure>
+
+</html>

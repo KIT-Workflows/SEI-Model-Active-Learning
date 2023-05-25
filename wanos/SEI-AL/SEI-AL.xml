@@ -1,0 +1,43 @@
+<WaNoTemplate>
+
+   <WaNoMeta>
+      <Author>
+         <Name> Celso R. C. Rego </Name>
+         <Email>celsorego@kit.edu</Email>
+      </Author>
+
+      <Description>
+         This WaNo shows the most used functionalities available within the SimStack workflow framework.
+      </Description>
+
+      <Keyword>SEI-AL-STEPS</Keyword>
+  </WaNoMeta>
+
+   <WaNoRoot name="SEI-AL">
+      <WaNoInt name="AL-STEP">1</WaNoInt>
+      
+      <WaNoInt name="TI" description="Number of training Iterations">2000</WaNoInt>
+
+      <WaNoFile logical_filename="KM.model" name="KM-model">/home/celso/Wanos_2020/SEI-Workflow/wano_SEI_2023/Steps/step_1/KM.model</WaNoFile>
+      <WaNoFile logical_filename="FastICA.model" name="FastICA-model">/home/celso/Wanos_2020/SEI-Workflow/wano_SEI_2023/Steps/step_1/FastICA.model</WaNoFile>
+      <WaNoFile logical_filename="KERNPCA.model" name="KPCA-model">/home/celso/Wanos_2020/SEI-Workflow/wano_SEI_2023/Steps/step_1/KERNPCA.model</WaNoFile>
+      <WaNoFile logical_filename="Tdata.json" name="Tdata">/home/celso/Wanos_2020/SEI-Workflow/wano_SEI_2023/Steps/step_1/Tdata.json</WaNoFile>
+   </WaNoRoot>
+   <WaNoExecCommand>
+      bash config.sh
+   </WaNoExecCommand>
+   
+   <WaNoInputFiles> 
+      <WaNoInputFile logical_filename="inputs-sei.py">inputs-sei.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="Cyc_al_steps.py">Cyc_al_steps.py</WaNoInputFile>
+      <WaNoInputFile logical_filename="folder1.tar.xz">folder1.tar.xz</WaNoInputFile>
+      <WaNoInputFile logical_filename="output-sei.py">output-sei.py</WaNoInputFile> 
+      <WaNoInputFile logical_filename="report_template.body">report_template.body</WaNoInputFile>
+      <WaNoInputFile logical_filename="config.sh">config.sh</WaNoInputFile>
+   </WaNoInputFiles>
+   
+   <WaNoOutputFiles>
+      <WaNoOutputFile>output_dict.yml</WaNoOutputFile>
+      <WaNoOutputFile>PF.json</WaNoOutputFile>
+   </WaNoOutputFiles>
+</WaNoTemplate>

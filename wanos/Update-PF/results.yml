@@ -1,0 +1,19 @@
+Conditional-DictBox: false
+DictBox-name:
+  Input string variable: string
+  Load the file: load file
+  condition-0: false
+  condition-1: false
+DropDown-list: option-0
+Float-var-0: 50.0
+Int-var-0: 20
+MultipleOf:
+- Float-var-1: 0.1
+  Int-var-1: 5
+  String-1: x-string
+String-0: string
+load-file: file
+simple-Dictbox:
+  var-0: 10
+  var-1: 50
+  var-2: 2

@@ -1,0 +1,23 @@
+<html>
+<h1> convergence test parameters </h1>
+
+<p style="color:blue;font-size:24px;">
+
+    The filled circles represent the relative deviations 100*((c-c_exp)/c_exp) from the experimental values for the planar and interlayer lattice parameters <b> a </b> and <b> c </b>, respectively.
+
+</p>
+
+
+<figure>
+    <img src="Fig1.png" alt="RDFs" style="width:55%">
+    <figcaption>Fig.1 - Convergence test for the 
+    <b> {% if "ENCUT" in output_dict %}
+            <li>{{ "ENCUT" }}</li>
+        {% else %}
+            <li>{{ "NKPTS" }}</li>
+        {% endif %} 
+    </b>
+    </figcaption>
+</figure>
+
+</html>

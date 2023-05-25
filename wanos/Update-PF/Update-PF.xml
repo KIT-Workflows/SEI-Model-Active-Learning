@@ -1,0 +1,39 @@
+<WaNoTemplate>
+
+   <WaNoMeta>
+      <Author>
+         <Name> Celso R. C. Rego </Name>
+         <Email>celsorego@kit.edu</Email>
+      </Author>
+
+      <Description>
+         This WaNo shows the most used functionalities available within the SimStack workflow framework.
+      </Description>
+
+      <Keyword>Update-PF</Keyword>
+  </WaNoMeta>
+
+   <WaNoRoot name="Update-PF">
+      
+      <WaNoFile logical_filename="kmc_database.yml" name="kmc-database">DB-Generator/outputs/db-kmc.yml</WaNoFile>
+      <WaNoFile logical_filename="PF.json" name="PF-file">SEI-AL/outputs/PF.json</WaNoFile>
+
+      <WaNoFile logical_filename="KM.model" name="KM-model">SEI-AL/outputs/KM.model</WaNoFile>
+      <WaNoFile logical_filename="FastICA.model" name="FastICA-model">SEI-AL/outputs/FastICA.model</WaNoFile>
+      <WaNoFile logical_filename="Tdata.json" name="Tdata">SEI-AL/outputs/Tdata.json</WaNoFile>
+   </WaNoRoot>
+
+   <WaNoExecCommand>
+      bash config.sh
+   </WaNoExecCommand>
+   
+   <WaNoInputFiles> 
+      <WaNoInputFile logical_filename="outputs-update.py">outputs-update.py</WaNoInputFile> 
+      <WaNoInputFile logical_filename="config.sh">config.sh</WaNoInputFile>
+   </WaNoInputFiles>
+   
+   <WaNoOutputFiles>
+      <WaNoOutputFile>PF.json</WaNoOutputFile>
+      <WaNoOutputFile>Tdata.json</WaNoOutputFile>
+   </WaNoOutputFiles>
+</WaNoTemplate>
