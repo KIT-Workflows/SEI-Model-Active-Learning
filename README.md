@@ -16,7 +16,7 @@ Workflow for Solid Electrolyte Interface (SEI) model within Active Learning appr
 There are two options for using the workflow: 1) collaborating team installing and using the workflow on their own machines, 2) collaborating team that want to choose the INT-Nano resources.
 For the first option, these are the checklist: 
  - Making sure starting multiple jobs is allowed on your cluster (for the advanced loop in the workflow)
- - Making sure you are assigned to a similar computational power and architecture (more import for large clusters)
+ - Making sure nodes with identical computational power and arcitecture can be allocated (more import for large clusters)
  - Making sure you are allowed to upload pickle files to the cluster
  
 After making sure these conditions are met, the steps for starting the workflow are:
