@@ -1,5 +1,8 @@
 When publishing results obtained with this set of **WaNos** please consider citing it. [![DOI](https://zenodo.org/badge/440164995.svg)](https://zenodo.org/badge/latestdoi/440164995)
 
+Acknowledgement
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, the large-scale European research initiative for inventing the sustainable batteries of the future.
+
 # SEI-Model-Active-Learning
 Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach
 
