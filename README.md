@@ -5,9 +5,6 @@ When publishing results obtained with this set of **WaNos** please consider citi
 
 
 
-### Acknowledgement
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, the large-scale European research initiative for inventing the sustainable batteries of the future.
-
 # SEI-Model-Active-Learning
 Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach
 
@@ -75,5 +72,7 @@ Step 8) The Update-PF WaNO needs a list of input files from previous WaNO. The f
 
 
 
+### Acknowledgement
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, the large-scale European research initiative for inventing the sustainable batteries of the future.
 
 
