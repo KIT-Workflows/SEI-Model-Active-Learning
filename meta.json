@@ -1,0 +1,19 @@
+{
+    "workflow_environment":"SimStack",
+    "title": "SEI-Model-Active-Learning",
+    "description": "Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach.",
+    "authors": ["Mohammad Soleymanibrojeni", "mohammad.soleymanibrojeni@kit.edu",
+        "Celso R. C. Rego", "celsorego@kit.edu"
+    ],
+    "version": "0.0.1",
+    "logo": "logo.png",
+    "release": {
+        "latest_release_date": "2023-19-09",
+        "latest_release_tag": "0.0.1"
+    },
+    
+    "keywords": [
+        "kMC",
+        "machine learning"
+    ]
+}
