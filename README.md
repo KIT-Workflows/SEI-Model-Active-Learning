@@ -8,7 +8,7 @@ When publishing results obtained with this set of **WaNos** please consider citi
 # SEI-Model-Active-Learning
 Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach
 
-😺 Github repository of paper:
+😺 Github repository of the paper:
 
 **An active learning approach to model solid-electrolyte interphase formation in Li-ion batteries**
 
