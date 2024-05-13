@@ -8,11 +8,17 @@ When publishing results obtained with this set of **WaNos** please consider citi
 # SEI-Model-Active-Learning
 Workflow for Solid Electrolyte Interface (SEI) model within Active Learning approach
 
+😺 Github repository of paper:
+
+**An active learning approach to model solid-electrolyte interphase formation in Li-ion batteries**
+
+🔗🔓 (open access) https://pubs.rsc.org/en/content/articlehtml/2024/ta/d3ta06054c
+
 ## Python dependencies
 
 * pip install torch torchvision torchaudio
 * pip install gpytorch
-* conda install scipy=1.7
+* pip install scipy=1.7
 * pip install seaborn=0.12.2
 * pip install scikit-learn==1.2.1
 * pip install pyyaml
